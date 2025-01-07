@@ -1,4 +1,4 @@
-const API_KEY = "f21a6bf3bfe42bde02aa229e67732bb8";
+const API_KEY = process.env.API_KEY
 const BASE_URL = "https://api.themoviedb.org/3";
 
 // A helper function to perform API requests using fetch with async/await
